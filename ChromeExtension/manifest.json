@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "BookmarkBridge",
+  "description": "Lets the BookmarkBridge Mac app keep Chrome and Safari bookmarks in sync.",
+  "version": "1.0.0",
+  "minimum_chrome_version": "116",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4NGC+FfABEccIj2FVcCscq2he6NwU5E8TFc9sTAO/eVXtd7KoEbOpEwMiNCtMJxQRCfVFxyHxFWURuMqixhzQYs+yuom+maVOlhXdoawjh1PzRTdjXo6mzKHwmBZ8uvva/aq+y2msIRDOvc7f4XLF/NnrAoYxpW6l0K73ODWn8bz8A6r0AuFRHRa5OABOD/1k/QOSQdRLWci8ttZMF6fPKG2LBzWY3Mk5r1nWVrPqMrnu92iH/LpCaKgJWj2YkFbno4HiAHvYO8ijoih/hIwMgbJ2oFHJAgTJbM0r4GzSBKIpdUsOB7rEg4K4jwHu+hpyEGLIZiuh2BpyjybXxH6RwIDAQAB",
+  "icons": { "16": "icons/icon16.png", "32": "icons/icon32.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "permissions": ["bookmarks", "nativeMessaging", "alarms", "storage"],
+  "background": { "service_worker": "background.js" }
+}
